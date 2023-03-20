@@ -1,0 +1,20 @@
+div.login-screen{
+    background-color: var(--c2);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+div.login-screen form{
+    background-color: var(--c2);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+div.login-screen div.title{
+    width:100%;
+    background-color: var(--c7);
+    color:var(--c3);
+    font-size:2rem;
+}

@@ -1,0 +1,8 @@
+aside.profile img.avatar{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+aside.profile{
+    background-color: var(--c1);
+}

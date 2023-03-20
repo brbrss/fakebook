@@ -1,0 +1,23 @@
+nav {
+    background-color: var(--c7);
+    color: var(--c1);
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+}
+
+
+nav a {
+    all: unset;
+    color: var(--c3);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+nav form {
+    margin-left: auto;
+}

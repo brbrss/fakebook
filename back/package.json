@@ -1,0 +1,28 @@
+{
+  "name": "book",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "npx jest ./"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "eslint-plugin-jest": "^27.1.5",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.4.0",
+    "http-errors": "~1.6.3",
+    "jest": "^29.2.2",
+    "mongodb": "^4.11.0",
+    "mongodb-memory-server": "^8.9.4",
+    "morgan": "~1.9.1",
+    "supertest": "^6.3.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "nodemon": "^2.0.20"
+  }
+}

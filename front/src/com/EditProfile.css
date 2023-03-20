@@ -1,0 +1,14 @@
+.editInfo {
+    margin: 0.5rem;
+    background-color: var(--c1);
+}
+
+.editAvatar {
+    margin: 0.5rem;
+    background-color: var(--c1);
+}
+
+.editAvatar img.avatar {
+    max-width: 100%;
+    max-height: 200px;
+}

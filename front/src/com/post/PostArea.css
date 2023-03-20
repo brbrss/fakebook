@@ -1,0 +1,12 @@
+div.post-area {
+    padding: 0.5rem;
+    background-color: var(--c2);
+}
+
+
+
+div.timeline div.view-post{
+    margin-top: 0.3rem;
+    background-color: var(--c1);
+
+}

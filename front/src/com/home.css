@@ -1,0 +1,17 @@
+div.homebody{
+    display: flex;
+
+}
+
+@media screen and (max-width: 600px) {
+    div.homebody{
+        display: block;
+    }
+}
+
+div.homebody .profile{
+    flex:3;
+}
+div.homebody .post-area{
+    flex:7;
+}

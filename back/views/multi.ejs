@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+
+    <% for(const item of itemList){%>
+
+        <a href=<%=item.path%> > <%=item.title%></a>
+
+        <% }%>
+
+            <div>Text: <%=text%>
+            </div>
+
+</body>
+
+</html>
